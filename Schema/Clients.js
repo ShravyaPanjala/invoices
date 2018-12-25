@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var Clients = new mongoose.Schema({
+var Clients = mongoose.Schema({
     ClientID:{type:String,default:""},
     Name: { type: String, default: "" },
     PhoneNumber: { type: Number, default: 0 },
